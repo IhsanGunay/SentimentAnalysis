@@ -10,4 +10,4 @@
 
   We tested the support vector machine classifier on 1000 randomly selected movie reviews from the test set. From our tests results, we received an accuracy of roughly 81%. We noticed that when we increased the training set from 5000 to 25000, the accuracy improved an additional 5%.
 
-  To run this program, the run ./pipelined_classifier.sh
+  To test this program on the test dataset, please run ./pipelined_classifier.sh If you want to test it on a single review please save the review at test.file and run ./pipelined_classifier_ind.py This will also save all of the extracted features at test.feat  
